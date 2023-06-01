@@ -4,96 +4,111 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mohamed Abdo</title>
   </head>
   <body>
     <!-- section header -->
 
     <header>
-      <section class="nav-bar">
-        <div class="header-logo">Mohamed Abdo</div>
-        <nav class="nav-menu">
-          <ul>
-            <li>My Story</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-      </section>
+      <div class="container">
+        <section class="nav-bar">
+          <div class="header-logo">Mohamed Abdo</div>
+          <nav class="nav-menu">
+            <ul class="nav-links">
+              <li>My Story</li>
+              <li>Projects</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+        </section>
 
-      <section class="intro">
-        <div class="intro-text">
-          <h1>Self-Taught Web developer</h1>
-          <p>
-            Hi, i am self taught web developer who look for new challenges and
-            wish you enjoy my website
-          </p>
-          <button class="sign-up">Sign-up</button>
-        </div>
-        <div class="intro-img">
-          <img src="/img/code-lines.jpg" alt="screen with code lines" />
-        </div>
-      </section>
+        <section class="intro">
+          <div class="intro-text">
+            <h1>Self-Taught Web developer</h1>
+            <p>
+              Hi, i am self taught web developer who look for new challenges and
+              wish you enjoy my website
+            </p>
+            <button class="btn">Sign-up</button>
+          </div>
+          <div class="intro-img">
+            <img src="/img/code-lines.jpg" alt="screen with code lines" />
+          </div>
+        </section>
+      </div>
     </header>
 
     <!-- section main -->
 
     <main>
-      <section class="main-first">
-        <h2>Some random information</h2>
-        <div class="boxes-container">
-          <div class="box-container">
-            <div class="box"></div>
-            <p class="box-subtext">
-              this is subtext under an illustration or image
-            </p>
-          </div>
+      <div class="container">
+        <section class="main-first">
+          <h2>Some random information</h2>
+          <div class="boxes-container">
+            <div class="box-wrapper">
+              <div class="box"></div>
+              <p class="box-subtext">
+                this is subtext under an illustration or image
+              </p>
+            </div>
 
-          <div class="box-container">
-            <div class="box"></div>
-            <p class="box-subtext">
-              this is subtext under an illustration or image
-            </p>
-          </div>
+            <div class="box-wrapper">
+              <div class="box"></div>
+              <p class="box-subtext">
+                this is subtext under an illustration or image
+              </p>
+            </div>
 
-          <div class="box-container">
-            <div class="box"></div>
-            <p class="box-subtext">
-              this is subtext under an illustration or image
-            </p>
-          </div>
+            <div class="box-wrapper">
+              <div class="box"></div>
+              <p class="box-subtext">
+                this is subtext under an illustration or image
+              </p>
+            </div>
 
-          <div class="box-container">
-            <div class="box"></div>
-            <p class="box-subtext">
-              this is subtext under an illustration or image
-            </p>
+            <div class="box-wrapper">
+              <div class="box"></div>
+              <p class="box-subtext">
+                this is subtext under an illustration or image
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="quote">
-        <blockquote>
-          The greatest glory in living lies not in never falling, but in rising
-          every time we fall. -Nelson Mandela
-        </blockquote>
-      </section>
+        <section class="quote">
+          <blockquote>
+            The greatest glory in living lies not in never falling, but in
+            rising every time we fall. -Nelson Mandela
+          </blockquote>
+        </section>
 
-      <section class="cta-container">
-        <div class="cta">
-          <div>
-            <h3>Call to action! it's time!</h3>
-            <p>Sign up for product by clicking that button over there</p>
+        <section class="cta-container">
+          <div class="cta">
+            <div>
+              <h3>Call to action! it's time!</h3>
+              <p>Sign up for product by clicking that button over there</p>
+            </div>
+            <button class="sign-up--cta">Sign up</button>
           </div>
-          <button class="sign-up--cta">Sign up</button>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <!-- Footer -->
 
     <footer>
-      <p>copyright &copy; The Odin Project 2023</p>
+      <div class="container">
+        <p>copyright &copy; The Odin Project 2023</p>
+      </div>
     </footer>
   </body>
 </html>

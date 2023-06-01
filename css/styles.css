@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* General*/
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3882f6;
+  font-size: 16px;
+  font-weight: 500;
+  color: #f9faf8;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 15px 0 40px 0;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 500;
+}
+.nav-menu {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Section Intro */
+.intro {
+  margin-top: 60px;
+  display: flex;
+  gap: 25px;
+  overflow: hidden;
+}
+.intro-text {
+  flex: 1;
+}
+.intro-text h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.intro-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+.intro-img {
+  flex: 1;
+  width: 400px;
+  height: 300px;
+}
+.intro-img img {
+  width: fit-content;
+  object-fit: cover;
+}
+
+/* End of Section Intro */
+
+/* Section Main */
+.main-first {
+  background-color: #f9faf8;
+  text-align: center;
+  padding-top: 50px;
+}
+.main-first h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 700;
+}
+.boxes-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+s}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+}
